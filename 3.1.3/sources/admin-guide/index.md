@@ -34,6 +34,6 @@ Follow these instructions:
 
 1. Turn on Super Gluu 2FA for your server, as discussed in the [Gluu Server docs](https://gluu.org/docs/ce/authn-guide/supergluu/)
 
-1. Enroll Super Gluu for against a user account, and ads will be removed from the app on that device. 
+1. Enroll Super Gluu for a user account, and ads will be removed from the app on that device. 
 
 All users who enroll Super Gluu against this server should now see advertisements removed from the app on their device. 
