@@ -1,4 +1,6 @@
 # Super Gluu Documentation
+
+## Overview
 Super Gluu is a free and secure two-factor authentication (2FA) mobile app. 
 
 Super Gluu is tightly bundled with the [Gluu Server](https://gluu.org/gluu-server) identity and access management platform, and can be used to achieve 2FA for web and mobile applications that leverage Gluu for authentication.
@@ -9,7 +11,11 @@ Super Gluu documentation is organized into the following sections:
 - [Admin Guide](./admin-guide/index.md)
 - [Developer Guide](./developer-guide/index.md)
 
-## U2F Security
+## Compatibility 
+
+Super Gluu 3.1.x is compatible with Gluu Server 3.x and 4.x. 
+
+## FIDO Security
 During Super Gluu authentication, the Gluu Server does more than look at the device ID to grant access. Super Gluu uses the Gluu Server's FIDO U2F endpoints to enroll a public key. The private key is stored on the device. To authenticate, the Gluu Server sends a challenge response to the device to check for the corresponding private key.
 
 ## How to Use Super Gluu 
