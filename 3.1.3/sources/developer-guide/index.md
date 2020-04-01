@@ -165,6 +165,12 @@ The following is a method for testing Super Gluu locally on a **non-public** ser
 
 1. Run `ipconfig` / `ifconfig` on the machine where you are planning to run your DNS server.
 
+1. Configure any DNS server to allow resovle `u144.example.info.=192.168.1.232`. For eaxmple you can use lightweight WindowsDNS DNS proxy server: 
+
+  - Create a dns.config file in the folder with dedserver.jar. Example file content: u144.example.info.=192.168.1.232
+  - Checkut and build `https://github.com/JonahAragon/WindowsDNS`
+  - Run the DNS server using a command like this: java -jar dedserver.jar
+
 1. Create a `dns.config` file in the folder with `dedserver.jar`. Example file content: `u144.example.info.=192.168.1.232`
 
 1. Run the DNS server using a command like this: `java -jar dedserver.jar`
